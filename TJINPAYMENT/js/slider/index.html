@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Beautiful jQuery Text Slider Article Tutorial</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7; IE=EmulateIE9">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+    <link rel="shortcut icon" href=http://www.freshdesignweb.com/wp-content/themes/fv28/images/icon.ico />
+    <link rel="stylesheet" type="text/css" href="style.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="fdw-demo.css" media="all" />
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700' rel='stylesheet' type='text/css'>
+</head>
+
+        <!-- stylesheets -->
+        <link rel="stylesheet" href="style.css">
+        <!-- js files -->
+        <script src="js/jquery-v1.8.2.js"></script> <!-- jQuery 1.8.2 -->
+        <script src="js/jquery-tweetscroll.js"></script> <!-- jQuery tweetscroll plugin -->
+        <script src="js/caroufredsel-carousel.js"></script><!-- CarouFredSel carousel plugin -->
+
+<body>
+<div id="container">
+				<div class="freshdesignweb-top"><h1><a href="http://www.freshdesignweb.com">Fresh Design Web - Demo</a></h1></div><div class="clr"></div>
+			<header>
+				<h1><strong> Beautiful jQuery Text Slider Article Tutorial</strong></h1>
+            </header>     
+  <!-- slider text article start -->
+  <div class="freshdesignweb">
+                <article class="grid_3  carousel-article">
+                    <h4>Slider text article</h4>
+
+                    <div style="display: block; text-align: start; position: relative; top: auto; right: auto; bottom: auto; left: auto; width: 220px; height: 90px; margin: 0px; overflow: hidden;" class="caroufredsel_wrapper">
+                    <ul style="text-align: left; float: none; position: absolute; top: 0px; right: auto; bottom: auto; left: 0px; margin: 0px; width: 1540px; height: 90px;" id="foo3" class="carousel-li">
+
+                    <li>
+                            <p>
+                                Slider1, welcome to freshdesignweb blog, here is useful slider text example tutorial with demo and download link, hope you can learn more about web design. Regard, Graham Bill 
+                            </p>
+                        </li><li>
+                            <p>
+                               Slider2, welcome to freshdesignweb blog, here is useful slider text example tutorial with demo and download link, hope you can learn more about web design. Regard, Graham Bill 
+                            </p>
+                        </li><li>
+                            <p>
+                               Slider3, welcome to freshdesignweb blog, here is useful slider text example tutorial with demo and download link, hope you can learn more about web design.Regard, Graham Bill 
+                            </p>
+                        </li></ul></div>
+
+                    <div class="clearfix"></div>
+
+                    <div style="display: block;" class="carousel-pagination" id="foo3_pag"><a class="selected" href="#"><span>1</span></a><a class="" href="#"><span>2</span></a><a class="" href="#"><span>3</span></a></div>
+
+                </article><!-- slider text article end -->
+
+        <script>
+            $("#foo3").carouFredSel({
+                items: 1,
+                auto: true,
+                scroll: 1,
+                pagination  : "#foo3_pag"
+            });
+        </script>
+</div>  </div>  
+<div class="clr"></div>
+            <!-- freshdesignweb top bar -->
+            <div class="freshdesignweb-buttom">
+                <a href="http://www.freshdesignweb.com" target="_blank">Home</a>
+                <span class="right">
+                    <a href="http://www.freshdesignweb.com/beautiful-jquery-text-slider-article-tutorial.html">
+                        Back to the freshdesignweb tutorial
+                    </a>
+                </span>
+                <div class="clr"></div>
+            </div><!--/ freshdesignweb top bar -->
+            
+<script type="text/javascript">
+var get_height = window.innerHeight; 
+var get_height1 =  get_height - 25;
+var get_container = document.getElementById('container');
+get_container.style.height =  get_height1 + 'px';
+</script>
+</body>
+</html>
