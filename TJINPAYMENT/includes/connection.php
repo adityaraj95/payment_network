@@ -43,7 +43,7 @@
 	define("JS_PATH", DOMAIN_NAME."js/");
 	define("CSS_PATH", DOMAIN_NAME."css/");
 
-	define("ADMIN_TITLE", ".::. Shalman Control Panel .::.");
-	define("SITE_TITLE", "Shalman ");
+	define("ADMIN_TITLE", ".::. Adityaraj .::.");
+	define("SITE_TITLE", "Adi ");
 	
 ?>
